@@ -10,7 +10,7 @@ familiar with [Git and Repo](http://source.android.com).
 First init the source.
 ======================
 
-$ repo init -u git://github.com/DirtyUnicorns/android_manifest.git -b n7x-caf
+$ repo init -u git://github.com/DirtyUnicorns/android_manifest.git -b p9x-caf
 
 Then:
 -------------------------
@@ -24,4 +24,4 @@ $ curl -L -o .repo/local_manifests/local_manifests.xml -O -L https://raw.github.
 Then Watch it Fly
 =================
 
-$ repo --trace sync -c -d -j16<----"Feel Free to Speed that up if you need to"
+$ repo sync --force-sync -j$( nproc --all )
