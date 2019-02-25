@@ -2,26 +2,10 @@
 <manifest>
 
   <!-- Device -->
-  <project path="device/lge/d850" name="nobe1976/android_device_lge_d850" remote="github" revision="cm-14.1" />
-  <project path="device/lge/g3-common" name="cj360/android_device_lge_g3-common" remote="github" revision="n7x-caf" />
-  <project path="kernel/lge/g3" name="cj360/android_kernel_lge_g3" remote="github" revision="n7x-caf" />
-  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-14.1" />
+  <project path="device/lge/d850" name="nobe1976/android_device_lge_d850" remote="github" revision="p9x" />
+  <project path="device/lge/g3-common" name="nobe1976/android_device_lge_g3-common" remote="github" revision="p9x" />
+  <project path="kernel/lge/g3" name="nobe1976/android_kernel_lge_g3" remote="github" revision="p9x" />
+  <project path="vendor/lge" name="nobe1976/proprietary_vendor_lge" remote="github" revision="p9x" />
 
   <!-- Needed Repos -->
-  <project path="external/sony/boringssl-compat" name="DirtyUnicorns/android_external_sony_boringssl-compat" remote="github" revision="m-caf"/>
-  <project path="external/stlport" name="DirtyUnicorns/android_external_stlport" remote="github" revision="n-caf"/>
-  <project path="external/connectivity" name="DirtyUnicorns/android_external_connectivity" remote="github" revision="n7x-caf"/>
-  <project path="system/qcom" name="DirtyUnicorns/android_system_qcom" remote="github" revision="n7x-caf"/>
-  <project path="external/bson" name="DirtyUnicorns/android_external_bson" remote="github" revision="n7x-caf"/>
-  <project path="hardware/qcom/msm8x74" name="DirtyUnicorns/android_hardware_qcom_msm8x74" remote="github" revision="n7x-caf" />
-  <project path="vendor/qcom/binaries" name="DirtyUnicorns/android_vendor_qcom_binaries" remote="github" revision="n7x-caf" />
-
-  <remove-project name="android_external_libnfc-nci" />
-  <remove-project name="android_hardware_qcom_bt" />
-  <remove-project name="android_hardware_qcom_wlan" />
-  <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" remote="github" revision="cm-14.1" />
-  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" remote="github" revision="cm-14.1" />
-  <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" remote="github" revision="cm-14.1-caf" />
-  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" remote="github" revision="cm-14.1" />
-  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" remote="github" revision="cm-14.1-caf" />
 </manifest>
